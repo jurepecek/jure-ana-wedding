@@ -4,5 +4,6 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
     plugins: [react()],
-    // base: '/wedding-website/', // Enable this when deploying to GitHub Pages project repository
+    base: '', // Allows the app to be deployed to any subdirectory
 })
+
