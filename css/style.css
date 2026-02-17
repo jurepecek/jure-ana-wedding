@@ -79,22 +79,39 @@ h4 {
 /* Hero Section */
 .hero {
     height: 100vh;
+    min-height: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-        url('../images/hero.png'),
-        url('https://images.unsplash.com/photo-1519225421980-715cb0202128?q=80&w=2000&auto=format&fit=crop') no-repeat center center/cover;
+        url('../images/hero.jpg'),
+        url('https://images.unsplash.com/photo-1519225421980-715cb0202128?q=80&w=2000&auto=format&fit=crop');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
     /* Placeholder elegant image */
     color: #fff;
     /* White text on hero */
     position: relative;
+    overflow: hidden;
 }
 
-.hero-content {
-    z-index: 2;
+/* Desktop: Zoom in slightly for portrait images to fill width while keeping center */
+@media (min-width: 1025px) {
+    .hero {
+        background-size: auto 110%;
+        background-position: center center;
+    }
+}
+
+/* Tablet: Moderate zoom */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .hero {
+        background-size: cover;
+        background-position: center center;
+    }
 }
 
 .subtitle {
@@ -363,3 +380,4 @@ footer .copyright {
     }
 
 }
+
