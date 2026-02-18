@@ -109,8 +109,8 @@ h4 {
 @media (min-width: 1025px) {
     .hero {
         background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-            url('../images/hero-desktop.jpg'),
-            url('../images/hero.jpg');
+            url('../images/hero-desktop.png'),
+            url('../images/hero.png');
         /* Fallback to existing hero.jpg */
         background-size: cover;
         background-position: center center;
@@ -504,3 +504,4 @@ footer .copyright {
     }
 
 }
+
