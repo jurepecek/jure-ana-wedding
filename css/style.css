@@ -87,8 +87,8 @@ h4 {
     text-align: center;
     /* Mobile/Tablet Image (Portrait) */
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-        url('../images/hero-mobile.jpg'),
-        url('../images/hero.jpg');
+        url('../images/hero-mobile.png'),
+        url('../images/hero.png');
     /* Fallback to existing hero.jpg */
     background-repeat: no-repeat;
     background-position: center center;
@@ -502,4 +502,5 @@ footer .copyright {
     .scroll-indicator {
         display: none;
     }
+
 }
