@@ -86,7 +86,7 @@ h4 {
     align-items: center;
     text-align: center;
     background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-        url('../images/hero.jpg'),
+        url('../images/hero.png'),
         url('https://images.unsplash.com/photo-1519225421980-715cb0202128?q=80&w=2000&auto=format&fit=crop');
     background-repeat: no-repeat;
     background-position: center center;
@@ -380,4 +380,5 @@ footer .copyright {
     }
 
 }
+
 
